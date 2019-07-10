@@ -1,12 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 </head>
 <body>
-    
+
+<div class="jumbotron text-center bg-success">
+        <h1 class="text-center text-white">Javascript Dom</h1>
+        <h2 class="text-center text-white">What Can Javascript Do!</h2>
+</div>
+  
+<div class="container">
+    <div class="row">
+        <div class="col-6 mb-3">
+            <h2>1# Finding Html object</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><b>Method</b></li>
+                <li class="list-group-item">document.getElementById(id)</li>
+                <li class="list-group-item">document.getElementsByTagName(name)</li>
+                <li class="list-group-item">document.getElmentsByClassName(name)</li>
+            </ul>
+        </div>
+        <div class="col-6 mb-3">
+            <h2>1# Changing HTML Elements</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><b>Property</b></li>
+                <li class="list-group-item">element.innerHTML = new html content</li>
+                <li class="list-group-item">element.attribute = new value</li>
+                <li class="list-group-item">element.style.property = new style</li>
+                <li class="list-group-item"><b>Method</b></li>
+                <li class="list-group-item">element.setAttribute(attribute, value)</li>
+            </ul>
+        </div>
+        <div class="col-6 mb-3">
+            <h2>3# Adding and Deleting Elements</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><b>Method</b></li>
+                <li class="list-group-item">document.createElement(element)</li>
+                <li class="list-group-item">document.removeChild(element)</li>
+                <li class="list-group-item">document.appendChild(element)</li>
+                <li class="list-group-item">document.replaceChild(new, old)</li>
+                <li class="list-group-item">document.write(text)</li>
+            </ul>
+        </div>
+        <div class="col-6 mb-3">
+            <h2>4# Adding Events Handlers</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><b>Method</b></li>
+                <li class="list-group-item">document.getElementById(id).onclick = function(){code}</li>
+            </ul>
+        </div>
+        
+        <div class="col-6 mb-3">
+            <h2>4# Finding HTML Objects</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><b>Method</b></li>
+                <li class="list-group-item">documents.anchor</li>
+                <li class="list-group-item">document.baseURI</li>
+                <li class="list-group-item">document.body</li>
+                <li class="list-group-item">document.cookie</li>
+                <li class="list-group-item">document.doctype</li>
+                <li class="list-group-item">document.documentElement</li>
+                <li class="list-group-item">document.documentMode</li>
+                <li class="list-group-item">document.documentURI</li>
+                <li class="list-group-item">document.domain</li>
+                <li class="list-group-item">document.embeds</li>
+                <li class="list-group-item">document.forms</li>
+                <li class="list-group-item">document.head</li>
+                <li class="list-group-item">document.images</li>
+                <li class="list-group-item">document.implementation</li>
+                <li class="list-group-item">document.inputEncoding</li>
+                <li class="list-group-item">document.lastModified</li>
+                <li class="list-group-item">document.links</li>
+                <li class="list-group-item">document.readyState</li>
+                <li class="list-group-item">document.referrer</li>
+                <li class="list-group-item">document.scripts</li>
+                <li class="list-group-item">document.strictErrorChecking</li>
+                <li class="list-group-item">document.title</li>
+                <li class="list-group-item">document.URI</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
